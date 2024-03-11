@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.list-container{
+   width: 50%;
+}
+.list-opened{
+ /*cette classe me sert de selecteur en js*/
+}
+.list-input{
+    border: 1px solid grey;
+    padding: 8px;
+    cursor: pointer;
+}
+.list-options{
+    border : 1px solid grey;
+    height: 0px;
+    overflow-y: hidden;
+    margin-top: -1px;
+}
+.option{
+    padding: 6px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: lightblue;
+}

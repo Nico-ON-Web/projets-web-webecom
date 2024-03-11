@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.card{
+    margin-top: 32px;
+    width : 300px;
+    border-radius: 16px;
+    padding : 16px;
+    box-shadow: 2px 2px 16px #33333333;
+    margin-right: 16px;
+}
+.card img{
+    width : 96px;
+    height: 96px;
+    border-radius: 12px;
+    margin-right: 8px;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metier{
+    padding : 8px 16px;
+    border-radius: 12px;
+    background-color: rgba(255, 68, 0, 0.209);
+    margin-top: 16px;
+   margin-bottom: 16px;
+   display: inline-block;
+}
+
+.btn{
+    margin-top: 16px;
+    display : inline-block;
+    padding : 8px 16px;
+    border-radius: 12px;
+    background-color: rgb(109, 29, 0);
+    color : #fff;
+    text-decoration: none;
+}
+
+
+.align-center{
+    align-items: center;
+}

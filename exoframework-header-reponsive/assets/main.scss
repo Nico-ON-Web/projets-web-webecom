@@ -1,0 +1,7 @@
+@import "./_variables.scss";
+@import "./_basis.scss";
+// oui il y a un ordre  variables d'abord parceque utilisées :) 
+@import "./layout/_layout.scss";
+@import "./components/_bouton.scss";
+
+@import "./components/_header.scss";

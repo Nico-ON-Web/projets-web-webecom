@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Validation de données / saisies utilisateurs</h1>
+        <p>Attention : ce n'est pas de la sécurité </p>
+
+        <form action="" method="POST" id="monform">
+            <div>
+                <label for="nom">votre nom complet</label>
+                <input class="" type="text" name="nom" id="nom">
+                <p class="p-error d-none" id="error-nom">Vous avez fait une dinguerie!</p>
+            </div>
+            <div>
+                <label for="sujet">Sujet</label>
+                <select name="sujet" id="sujet">
+                    <option value="">Choisissez un sujet</option>
+                    <option value="devis">Demande de devis</option>
+                    <option value="info">Demande d'informations</option>
+                    <option value="autre">Autre</option>
+                </select>
+                <p class="p-error d-none" id="error-sujet">Vous avez fait une dinguerie!</p>
+            </div>
+            <div>
+                <label for="message">Votre message <span id="long"></span></label>
+                <textarea name="message" id="message"></textarea>
+                <p class="p-error d-none" id="error-message">Vous avez fait une dinguerie!</p>
+            </div>
+            <input type="submit" value="Envoyer mon message">
+        </form>
+        
+        <script src="./app.js" defer></script>
+    </body>
+</html>

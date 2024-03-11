@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header></header>
+    <h1>Je reserve mon sejour</h1>
+    <form action="" method="POST" id="monForm">
+        <fieldset>
+            <legend>Informations générales</legend>
+            <div class="flex">
+                <div class="large-6 small-12">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <div class="large-6 small-12">
+                    <label for="prenom">Votre prénom</label>
+                    <input type="text" name="prenom" id="prenom">
+                </div>
+            </div>
+
+            <div>
+                <p>Adresse postale de facturation</p>
+                <div class="flex">
+                    <div class="large-2 small-12">
+                        <label for="numero">Numero</label>
+                        <input type="number" name="numero" id="numero">
+                    </div>
+                    <div class="large-10 small-12">
+                        <label for="rue">Rue</label>
+                        <input type="text" name="rue" id="rue">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="large-6 small-12">
+                        <label for="cp">code postal</label>
+                        <input type="text" name="cp" id="cp">
+                    </div>
+                    <div class="large-6 small-12">
+                        <label for="ville">Ville</label>
+                        <input type="text" name="ville" id="ville">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <p>Pour vous contacter</p>
+                <div class="flex">
+                    <div class="large-6 small-12">
+                        <label for="email">Votre adresse de messagerie</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="large-6 small-12">
+                        <label for="tel">Votre numero de téléphone</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                </div>
+                
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Ma reservation
+            </legend>
+            <div>
+                <label for="choixhotel">Choix de l'hotel</label>
+                <select id="choixhotel" name="choixhotel">
+                    <option value="">Choisir un hotel</option>
+                    <option value="feu">Feu</option>
+                    <option value="terre">Terre</option>
+                    <option value="eau">Eau</option>
+                    <option value="air">Air</option>
+                </select>
+            </div>
+            <div id="suite" class="d-none">
+                <label for="choixsuite">Choix de votre suite</label>
+                <select id="choixsuite" name="choixsuite">
+                    <option value="">Choisir une suite</option>
+                    <option value="igloos">Igloos</option>
+                    <option value="lapones">Suites Lapones</option>
+                </select>
+            </div>
+            <div>
+                <label for="nombrepersonnes">Nombre de personne</label>
+                <input type="number" name="nombrepersonnes" id="nombrepersonnes" max="2" min="1" step="1">
+            </div>
+            <div class="flex">
+                <div class="large-6 small-12">
+                    <label for="arrivee">Date d'arrivée</label>
+                    <input type="date" name="arrivee" id="arrivee">
+                </div>
+                <div class="large-6 small-12">
+                    <label for="depart">Date d'arrivée</label>
+                    <input type="date" name="depart" id="depart">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset id="options">
+            <legend>Options et services supplémentaires</legend>
+            <div>
+                <input type="checkbox" id="chauffeur" name="chauffeur">
+                <label for="chauffeur">chauffeur</label>
+            </div>
+
+            <div id="repas">
+                <p>Repas</p>
+                <div>
+                    <input type="checkbox" id="petitdejeuner" name="petitdejeuner">
+                    <label for="petitdejeuner">Petit déjeuner</label>
+                </div>
+
+                <div class="mt-16" id="choix-repas">
+                    <div>
+                        <input type="checkbox" name="midi" id="midi">
+                        <label for="midi">Midi</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="soir" id="soir">
+                        <label for="soir">Soir</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="ponctuel" id="ponctuel">
+                        <label for="ponctuel">Ponctuel</label>
+                    </div>
+                </div>
+                <p>Autre</p>
+                <div>
+                    <input type="checkbox" name="visite" id="visite">
+                    <label for="visite">Visite accompagnée du domaine et du parc naturel </label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset id="alimentaire" class="d-none">
+            <legend>Regime alimentaire spécifique</legend>
+            <div>
+                <label for="regime">Avec vous un régime alimentaire particulier</label>
+                <select name="regime" id="regime">
+                    <option value="aucun">Aucun</option>
+                    <option value="vegan">Végan</option>
+                    <option value="vegetarien">Végétarien</option>
+                    <option value="cetogene">Cétogène</option>
+                    <option value="pouletivore">Pouletivore</option>
+                </select>
+            </div>
+            <div>
+                <p>Avec vous des restrictions alimentaires</p>
+                <div class="restrictions">
+                    <label for="sucre">Sans sucre</label>
+                    <input type="checkbox" id="sucre" name="sucre">
+                    <label for="sel">Sans sel</label>
+                    <input type="checkbox" id="sel" name="sel">
+                    <label for="lactose">Sans lactose</label>
+                    <input type="checkbox" id="lactose" name="lactose">
+                    <label for="gluten">Sans gluten</label>
+                    <input type="checkbox" id="gluten" name="gluten">
+                </div>
+            </div>
+        </fieldset>
+        <div class="text-center">
+            <input type="submit" value="Envoyer ma Reservation">
+        </div>
+    </form>
+    <div class="mask d-none"></div>
+    <div class="modal d-none">
+        <div class="zoneModal"></div>
+        <!-- 
+        <h2>Récapituliatif de votre reservation</h2>
+        <h3>Coordonnées</h3>
+        <p>nom prenom</p>
+        <p>n° adresse cp ville</p>
+        <p>Tel : 00 00 00 00 00</p>
+        <p>email : mail</p>
+        <hr>
+        <h3>Détails de la reservation</h3>
+        <p>2 personnes</p>
+        <p>hotel</p>
+        <p>Arrivée :    Départ :    soit:   jours/ nuits</p>
+        <p>3 x prix par jour</p>
+        <hr>
+        <h3>Options supplémentaires</h3>
+        <p>petits dejeuners (15€/repas):  €</p>
+        <p>midi (25€/repas):  €</p>
+        <p>soir (25€/repas):  €</p>
+        <p>Visite du domaine et du parc naturel (20€)</p>
+        <hr>
+        <h3>TOTAL : </h3>
+         -->
+        <button id="retour">Revenir au formulaire</button>
+        <button id="payer">Prodécéder au paiement</button>
+    </div>
+    <footer></footer>
+    <script src="./app.js" defer></script>
+</body>
+
+</html>

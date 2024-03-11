@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex>div{
+    margin-right: 16px;
+}
+
+.notes{
+    color: orange;
+    font-size: 32px;
+    cursor: pointer;
+}
+.align-center{
+    align-items: center;
+}
+
+.moyenne{
+    width: 120px;
+    height: 27px;
+    background-image: url('./image/etoilesvides.png');
+    -webkit-mask-image: url("./image/mask2.png");
+    mask-image: url("./image/mask2.png");
+}
+.curseur{
+    background-color: orange;
+    height: 27px;
+    
+}

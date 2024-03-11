@@ -1,0 +1,30 @@
+#madiv{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+.flex{
+    display: flex;
+}
+#exo3{
+    margin-bottom: 32px;
+}
+#exo3 .flex>div{
+    margin-right: 16px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+#exo4{
+    margin-bottom: 64px;
+}
+#exo4 div{
+    margin-right: 16px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.activeDiv{
+    background-color: chartreuse;
+}

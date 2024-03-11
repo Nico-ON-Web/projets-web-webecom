@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    &:hover{
+        color: blue;
+    }
+    span{
+        font-size: 14px;
+    }
+}
+
+h1,h2{
+    font-size: 32px;
+}
+
+h3{
+    color: black;
+}

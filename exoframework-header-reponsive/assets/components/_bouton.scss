@@ -1,0 +1,36 @@
+.btn{
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top : 16px;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.6s ease, background-color 0.6s ease;
+}
+.btn:hover{
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+.btn-primary:hover{
+   background-color: var(--primary-hover);
+}
+.btn-secondary{
+    background-color: var(--secondary);
+}
+.btn-secondary:hover{
+    background-color: var(--secondary-hover);
+}
+.btn-danger{
+    background-color: var(--danger);
+}
+.btn-danger:hover{
+    background-color: var(--danger-hover);
+}
+.btn-success{
+    background-color: var(--success);
+}
+.btn-success-hover{
+    background-color: var(--success-hover);
+}

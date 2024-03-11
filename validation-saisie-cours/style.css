@@ -1,0 +1,25 @@
+form{
+    width: 500px;
+    padding: 16px;
+}
+label, input, textarea,select{
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+form>div{
+    margin-top: 16px;
+}
+input[type="submit"]{
+    margin-top: 16px;
+    width: fit-content;
+}
+.input-error{
+    border: 1px solid red;
+}
+.p-error{
+    color: red;   
+}
+.d-none{
+    display: none;
+}

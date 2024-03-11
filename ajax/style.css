@@ -1,0 +1,16 @@
+.card{
+    width: 150px;
+    padding: 8px;
+    box-shadow: 2px 2px 16px #33333333;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+#zone{
+    display: flex;
+}
+#zone>div{
+    margin-right: 16px;
+}

@@ -1,0 +1,52 @@
+{
+  "profils": [
+    {
+      "nom": "Dupont",
+      "prenom": "Jean",
+      "photo": "Jean.png",
+      "age": 30,
+      "metier": "Développeur Frontend",
+      "presentation": "Je suis passionné par le développement web et j'ai une solide expérience dans la création d'interfaces utilisateur interactives et réactives. Je maîtrise les technologies HTML, CSS et JavaScript ainsi que les frameworks modernes comme React et Angular."
+    },
+    {
+      "nom": "Durand",
+      "prenom": "Pierre",
+      "photo": "Pierre.png",
+      "age": 35,
+      "metier": "Développeur Backend",
+      "presentation": "Je suis un développeur backend expérimenté spécialisé dans la création de serveurs robustes et évolutifs. Ma principale expertise se situe dans le développement avec Node.js et la gestion de bases de données relationnelles et NoSQL. Je suis passionné par l'optimisation des performances et la sécurité des applications."
+    },
+    {
+      "nom": "Martin",
+      "prenom": "Marie",
+      "photo": "Marie.png",
+      "age": 28,
+      "metier": "Designer UX/UI",
+      "presentation": "En tant que designer UX/UI, je suis déterminée à créer des expériences utilisateur exceptionnelles. Mon approche allie une compréhension approfondie des besoins des utilisateurs à une esthétique moderne et innovante. J'ai une solide expérience dans la conception d'interfaces conviviales et dans la réalisation de prototypes interactifs."
+    },
+    {
+      "nom": "Lefebvre",
+      "prenom": "Paul",
+      "photo": "Paul.png",
+      "age": 32,
+      "metier": "Développeur Frontend",
+      "presentation": "Je suis un développeur frontend passionné par la création d'interfaces utilisateur élégantes et conviviales. J'ai une expertise dans les technologies HTML, CSS et JavaScript, ainsi que dans les frameworks comme Vue.js et Svelte. Je m'intéresse également à l'accessibilité web et à l'optimisation des performances."
+    },
+    {
+      "nom": "Dubois",
+      "prenom": "Sophie",
+      "photo": "Sophie.png",
+      "age": 29,
+      "metier": "Développeur Backend",
+      "presentation": "Je suis une développeuse backend expérimentée avec une passion pour la création de solutions robustes et évolutives. J'ai une solide expertise dans les technologies Java et Spring Boot, ainsi que dans la conception et l'optimisation de bases de données MySQL et MongoDB. Je suis également intéressée par le développement de microservices et les architectures cloud."
+    },
+    {
+      "nom": "Garcia",
+      "prenom": "Emma",
+      "photo": "Emma.png",
+      "age": 27,
+      "metier": "Designer UX/UI",
+      "presentation": "En tant que designer UX/UI, je suis dévouée à créer des expériences utilisateur captivantes et fonctionnelles. Mon approche centrée sur l'utilisateur combine une analyse approfondie des besoins des utilisateurs avec une esthétique moderne et élégante. J'ai une expérience significative dans la conception de wireframes, de maquettes et de prototypes interactifs."
+    }
+  ]
+}

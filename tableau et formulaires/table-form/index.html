@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Les tableaux</h1>
+    <table>
+        <!-- Table head (en tête)-->
+        <thead>
+            <tr>
+                <!-- Table headings -->
+                <th>Prénom</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <!-- Table row -->
+            <tr>
+                <!-- table data -->
+                <td>Nico</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>Eric</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>Leila</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Les formulaires</h2>
+    <h3>Les inputs (champs de saisie)</h3>
+    <!-- Prenom, nom  données de type texte court -->
+
+    <form action="" method="POST">
+        <div>
+            <label for="prenom">Votre prénom</label>
+            <input type="text" name="prenom" id="prenom" />
+        </div>
+
+        <!-- email -->
+        <div>
+            <label for="email">Votre email</label>
+            <input type="email" name="" id="">
+        </div>
+        <!-- Password -->
+        <div>
+            <label for="mdp">Votre mot de passe</label>
+            <input type="password" name="mdp" id="mdp">
+        </div>
+        
+        <!-- nombre -->
+        <div>
+            <label for="age">Votre age</label>
+            <input type="number" id="age" name="age" min="0" max="130" step="10" />
+        </div>
+
+        <!-- Date -->
+        <div>
+            <label for="birth">Votre date de naissance</label>
+            <input type="date" id="birth" name="birth">
+            <input type="datetime-local" id="" name="">
+            <input type="time">
+        </div>
+
+        <!-- Liste déroulante -->
+        <div>
+            <label for="taille">Choisissez la taille de vos chaussures</label>
+            <select name="taille" id="taille">
+                <option value="">Choisissez une taille</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+            </select>
+        </div>
+
+
+        <!-- curseur qu'on déplace -->
+        <div>
+            <label for="volume">Volume</label>
+            <input type="range" name="volume" id="volume" value="0">
+        </div>
+
+        <!-- Couleur -->
+        <input type="color" name="" id="">
+
+        <!-- Texte long -->
+        <label for="message">Votre message</label>
+        <textarea name="message" id="message" placeholder="votre texte ici"></textarea>
+
+        <!-- Case a cocher -->
+        <!-- Choix multiple -->
+        <div>
+            <label for="cgu">Veuillez accepter les condition générales d'utilisation</label>
+            <input type="checkbox" name="cgu" id="cgu">
+            <input type="checkbox" name="cgu" id="cgu2">
+            <input type="checkbox" name="cgu" id="cgu3" checked>
+        </div>
+
+        <!-- Case a cocher choix unique -->
+        <div>
+            <label for="vrai">Vrai</label>
+            <input type="radio" name="vraifaux" id="vrai" checked>
+            <label for="faux">Faux</label>
+            <input type="radio" name="vraifaux" id="faux">
+        </div>
+
+
+
+        <!-- Le "bouton" pour envoyer le formulaire-->
+        <input type="submit" value="Enregister les information">
+    </form>
+
+
+
+
+
+
+
+</body>
+
+</html>

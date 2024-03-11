@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accordeon-container{
+    width : 50%;
+}
+.accordeon-item{
+
+}
+.accordeon-title{
+    background-color: lightblue;
+    padding: 16px;
+}
+.accordeon-content{
+    padding: 16px;  
+}
+.accordeon-content-container{
+    height: 0px;
+    overflow-y: hidden;
+    transition: height 0.6s ease;
+}
+.accordeon-open{
+}

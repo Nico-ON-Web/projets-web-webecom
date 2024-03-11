@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form action="" method="POST">
+
+            <label for="arrivee">Arrivée</label>
+            <input type="date" id="arrivee" name="arrivee">
+
+            <label for="depart">depart</label>
+            <input type="date" id="depart" name="depart">
+
+            <label for="chambre">Chambre</label>
+            <select name="cahambre" id="chambre">
+                <option value="">Choisissez une chambre</option>
+                <option data-prix="500" value="igloos">Igloos (500€)</option>
+                <option data-prix="800" value="lapones">Lapones (800€)</option>
+            </select>
+            <input type="submit" value="Envoyer">
+         </form>
+        <script src="./test.js" async defer></script>
+    </body>
+</html>
